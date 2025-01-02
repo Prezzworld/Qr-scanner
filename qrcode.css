@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lexend', serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qrcode-card{
+    background-color: white;
+    padding: 1rem;
+    width: 350px;
+    height: 520px;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.qrcode-card-text{
+    padding-inline: 0.5rem;
+}
+
+h3{
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1rem;
+}
+
+p{
+    color: hsl(216, 15%, 48%);
+    font-size: 14px;
+    padding-inline: 1rem;
+}
